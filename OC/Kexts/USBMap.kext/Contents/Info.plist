@@ -37,21 +37,19 @@
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
+			<string>AppleUSBXHCISPTLP</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBMuxEnabled</key>
 				<true/>
 				<key>port-count</key>
 				<data>
-				DQAAAA==
+				BwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>HS01</key>
 					<dict>
-						<key>Comment</key>
-						<string>left-usb-2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -61,30 +59,24 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
-						<key>Comment</key>
-						<string>right-top-usb-2</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						AgAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS03</key>
 					<dict>
-						<key>Comment</key>
-						<string>right-bottom-usb-2</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						AwAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS04</key>
 					<dict>
-						<key>Comment</key>
-						<string>left-usb-c-2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -94,14 +86,12 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
-						<key>Comment</key>
-						<string>right-sd-card-reader</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						BQAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS06</key>
 					<dict>
@@ -114,21 +104,21 @@
 					</dict>
 					<key>HS07</key>
 					<dict>
-						<key>#port</key>
-						<data>
-						BwAAAA==
-						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-					</dict>
-					<key>HS08</key>
-					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
+						BwAAAA==
+						</data>
+					</dict>
+					<key>HS08</key>
+					<dict>
+						<key>#port</key>
+						<data>
 						CAAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS09</key>
 					<dict>
@@ -168,14 +158,12 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
-						<key>Comment</key>
-						<string>left-usb-3</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						DQAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>SS02</key>
 					<dict>
@@ -191,15 +179,6 @@
 						<key>#port</key>
 						<data>
 						DwAAAA==
-						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-					</dict>
-					<key>SS04</key>
-					<dict>
-						<key>#port</key>
-						<data>
-						EAAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
